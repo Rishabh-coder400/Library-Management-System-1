@@ -1,4 +1,4 @@
-# Library-Management-System-1
+# Library-Management-System
 A JavaFX-based Library Management System with SQLite
 Java-project: Library Management System
 
