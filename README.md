@@ -1,3 +1,106 @@
+📚 Library Management System
+
+A modern and user-friendly JavaFX-based Library Management System that allows users to add, search, and manage books with authentication and SQLite database support.
+
+
+---
+
+✅ Features
+
+🧑‍💼 User Authentication: Login/Register with SQLite
+
+📖 Book Management: Add, View, Search, Update, Delete
+
+💾 Database Integration: SQLite with error handling
+
+💡 Input Validation: Ensures required fields aren't empty
+
+🚨 Robust Error Handling: Try-catch logic with user feedback
+
+🎨 Dark-Themed UI: Clean JavaFX layout with modern styling
+
+
+
+---
+
+🏗️ Tech Stack
+
+Layer	Technology
+
+Frontend	JavaFX (FXML)
+Backend	Java
+Database	SQLite
+IDE	IntelliJ / Eclipse
+
+
+
+---
+
+🗂️ Project Structure
+
+Library-Management-System/
+├── controllers/         # All JavaFX controller files
+├── models/              # (Optional) Data Models
+├── views/               # FXML UI files & CSS
+├── utils/               # DBConnection utility
+├── database/            # SQLite database file
+├── screenshots/         # UI images for documentation
+├── README.md            # Project documentation
+└── library.db           # SQLite DB (runtime-generated)
+
+
+---
+
+🚀 Getting Started
+
+1. Clone the Repository
+
+git clone https://github.com/your-username/Library-Management-System.git
+cd Library-Management-System
+
+2. Open in IDE (e.g., IntelliJ or Eclipse)
+
+Ensure JavaFX SDK is added to your project settings.
+
+3. Run the Application
+
+Start with Main.java
+
+On first run, library.db will be created automatically (or place it in database/ manually).
+
+
+
+---
+
+🧪 Screenshots
+
+Login Screen	Add Book	Book List
+
+		
+
+
+
+---
+📌 Note
+
+Make sure library.db has tables users and books before starting
+
+Use appropriate JDK 17+ for JavaFX compatibility
+
+
+
+---
+
+📬 Feedback
+
+Feel free to create issues or pull requests for improvements!
+
+
+---
+
+📜 License
+
+MIT License - Use freely with attribution.
 # Library-Management-System
 A JavaFX-based Library Management System with SQLite
 Java-project: Library Management System
